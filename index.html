@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find the bug</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body> 
+    <section class="menu">
+        <h1 class="section__heading">Выберите уровень сложности:</h1>
+        <p class="game-description">Выберите сложность и игра начнется. <span class="normal-font">Чем выше
+            уровень - тем больше будет выборка карт.</span> 
+        </p>
+        <ul class="hardness-list">
+            <li>
+                <input class="input" type="radio" name="hardness" id="easy" checked>
+                <label class="label" for="easy">
+                    Простой
+                </label>
+            </li>
+            <li>
+                <input class="input" type="radio" name="hardness" id="medium">
+                <label class="label" for="medium">
+                    Средний
+                </label>
+            </li>
+            <li>
+                <input class="input" type="radio" name="hardness" id="hard">
+                <label class="label" for="hard">
+                    Сложный    
+                </label>
+            </li>
+        </ul>
+        <button class="button button_menu">Начать игру</button>
+        <div class="card menu-card_1">
+            <div class="card-face front"></div>
+            <div class="card-face back"></div>
+        </div>
+        <div class="card menu-card_2">
+            <div class="card-face front"></div>
+            <div class="card-face back"></div>
+        </div>
+    </section>
+   
+    <section class="table hidden">
+        <section class="section_hard table_section hidden">
+            <div class="card hard ">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card hard">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section_medium table_section hidden">
+            <div class="card medium">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card medium">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card medium">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card medium">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card medium">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card medium">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section_easy table_section hidden">
+            <div class="card easy">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card easy">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+            <div class="card easy">
+                <div class="card__wrap">
+                    <div class="card-face front"></div>
+                    <div class="card-face back"></div>
+                </div>
+            </div>
+        </section>
+        <button class="button button_table">Вернуться в меню</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
